@@ -1,0 +1,66 @@
+.navbar {
+    font-size: 1.5rem;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.start-btn {
+    max-width: 250px;
+    margin-left: 30px;
+    transition: 300ms all ease;
+    -webkit-transition: 300ms all ease;
+    -moz-transition: 300ms all ease;
+    -ms-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+}
+
+.start-btn:hover {
+    color: black !important;
+}
+
+
+.social {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 300ms all ease;
+    -webkit-transition: 300ms all ease;
+    -moz-transition: 300ms all ease;
+    -ms-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
+.social:hover {
+    background-color: white;
+    color: black !important;
+}
+
+@media only screen and (max-width:992px) {
+
+    .navbar {
+        background-color: black !important;
+    }
+
+    .start-btn {
+        margin-left: 0;
+        margin-top: 10px;
+
+    }
+}

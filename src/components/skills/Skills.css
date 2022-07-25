@@ -1,0 +1,33 @@
+.skills-wrapper {
+    background-image: url(../../../public/images/banner-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+
+.skills-container {
+    background-color: black;
+
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+    color: white;
+}
+
+.skills-subTitle {
+    color: rgb(150, 150, 150);
+}
+
+.corousel-item img {
+    margin-bottom: 10px;
+
+}
+
+.corousel-item {
+    font-size: 1.5rem;
+}

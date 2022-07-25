@@ -1,0 +1,90 @@
+.banner {
+    background-image: url(../../../public/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.banner-content {
+
+    max-width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 4%;
+    top: 60%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+
+.banner-content .banner-btn-header {
+    border: solid 1px violet;
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgba(88, 36, 79), rgba(51, 32, 99));
+    background-origin: border-box;
+    transition: 300ms all ease;
+    -webkit-transition: 300ms all ease;
+    -moz-transition: 300ms all ease;
+    -ms-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+    color: white;
+
+}
+
+.banner-content-text {
+    color: #CCC;
+
+}
+
+.banner-astronout {
+    position: absolute;
+    animation: astronoutMove 2s infinite alternate linear;
+    -webkit-animation: astronoutMove 2s infinite alternate linear;
+    width: 400px;
+}
+
+.animation-text-enter {
+    font-size: 3rem;
+    animation: animation-text-enter ease-out 1s infinite;
+    -webkit-animation: animation-text-enter ease-out 1s infinite;
+}
+
+@keyframes astronoutMove {
+    0% {
+        left: 60%;
+        top: 25%;
+    }
+
+    100% {
+        left: 60%;
+        top: 35%;
+    }
+}
+
+@keyframes animation-text-enter {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-content {
+
+
+        left: 0%;
+
+
+    }
+
+}

@@ -1,0 +1,23 @@
+#projects-container {
+    background-color: black;
+    min-height: 500px;
+    padding: 50px;
+}
+
+.nav-item button {
+    color: white;
+
+}
+
+.nav-item button:hover {
+    color: white;
+}
+
+.nav-item button.active {
+    border-radius: 0 !important;
+    background: linear-gradient(90deg, rgba(242, 162, 242, 1) 0%, rgba(117, 9, 122, 1) 100%) !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}

@@ -1,0 +1,42 @@
+#footer {
+    background-image: url(../../../public/images/footer-bg.png);
+    color: white;
+    height: 80px;
+}
+
+.footer-brand {
+    font-size: 2rem;
+}
+
+.footer-item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 300ms all ease;
+    -webkit-transition: 300ms all ease;
+    -moz-transition: 300ms all ease;
+    -ms-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+    margin-right: 10px;
+}
+
+.footer-item a {
+    color: white;
+}
+
+.footer-item:hover {
+    background-color: white;
+}
+
+.footer-item:hover a {
+    color: black;
+
+}
